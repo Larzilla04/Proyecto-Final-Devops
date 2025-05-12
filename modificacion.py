@@ -1,7 +1,7 @@
 import boto3
 
 dynamodb = boto3.resource('dynamodb')
-tabla = dynamodb.Table('MiTabla')
+tabla = dynamodb.Table('proyectoTabla')
 
 # Insertar
 tabla.put_item(Item={'ID': '001', 'Nombre': 'Carlos'})
