@@ -5,6 +5,7 @@ tabla = dynamodb.Table('proyectoTabla')
 
 # Insertar
 tabla.put_item(Item={'proyecto1': '001', 'Nombre': 'Carlos'})
+tabla.put_item(Item={'proyecto1': '002', 'Nombre': 'Lars'})
 print("Insertado")
 
 # Modificar
