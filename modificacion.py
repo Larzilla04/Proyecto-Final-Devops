@@ -4,7 +4,7 @@ dynamodb = boto3.resource('dynamodb')
 tabla = dynamodb.Table('proyectoTabla')
 
 # Insertar
-tabla.put_item(Item={'ID': '001', 'Nombre': 'Carlos'})
+tabla.put_item(Item={'ID': 'proyecto1', 'Nombre': 'Carlos'})
 print("Insertado")
 
 # Modificar
